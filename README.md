@@ -1,15 +1,9 @@
 ### Correcting a Race Condition
 
-**Branch name:** introthreads-prework
-
-**RDE workfows:**
-* `rde wflow run introthreads-prework-sleepandrace-warehouseapp`
-* `rde wflow run introthreads-prework-sleepandrace-warehouseapptest`
-
 Expected time required: 15 min
 
 In this stage of some warehouse software we're developing, we are trying to track where packages are
-being sorted. However there is a race condition between the `main` thread and a thread started in
+being sorted. However, there is a race condition between the `main` thread and a thread started in
 `WarehouseManager` that are causing packages to be assigned to the wrong areas. As a quick fix we
 want to implement `Thread.sleep()` to correct the race condition.
 
@@ -22,7 +16,7 @@ We currently have three lists of `WarehousePackage` objects: packages marked as 
 packages containing books, and the remaining packages. After the list of packages are printed, the
 output should be as follows:
 
-- High Priority packages should should be in the High Priority list, *regardless of contents.*
+- High Priority packages should be in the High Priority list, *regardless of contents.*
 - Any remaining books should be in the book list.
 - Any remaining packages should be in the remaining list.
 - There shouldn't be more packages than printed from the truck.

@@ -1,5 +1,3 @@
-package com.amazon.ata.introthreads.prework.sleepandrace;
-
 import com.amazon.ata.introthreads.prework.sleepandrace.resources.DeliveryTruck;
 import com.amazon.ata.introthreads.prework.sleepandrace.resources.WarehousePackage;
 
