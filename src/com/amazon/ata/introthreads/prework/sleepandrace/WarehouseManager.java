@@ -1,4 +1,4 @@
-import com.amazon.ata.introthreads.prework.sleepandrace.resources.WarehousePackage;
+package com.amazon.ata.introthreads.prework.sleepandrace;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,5 @@
+package com.amazon.ata.introthreads.prework.sleepandrace;
+
 public class WarehousePackage {
 
     public String packageCategory;

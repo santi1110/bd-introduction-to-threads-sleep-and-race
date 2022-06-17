@@ -1,4 +1,5 @@
-import com.amazon.ata.introthreads.prework.sleepandrace.resources.WarehousePackage;
+import com.amazon.ata.introthreads.prework.sleepandrace.WarehouseApp;
+import com.amazon.ata.introthreads.prework.sleepandrace.WarehousePackage;
 
 import org.junit.jupiter.api.Test;
 
